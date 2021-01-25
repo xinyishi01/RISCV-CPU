@@ -205,6 +205,7 @@ module id(
 
 	always @(*) begin
 		flag1 = `False;
+        reg1_o = `ZeroWord;
 		if(rst == `True) begin
 			reg1_o = `ZeroWord;
 		end else if(reg1_read_o == `True)begin
@@ -226,6 +227,7 @@ module id(
 
 	always @(*) begin
 		flag2 = `False;
+        reg2_o = `ZeroWord;
 		if(rst == `True) begin
 			reg2_o = `ZeroWord;
 		end else if(reg2_read_o == `True)begin
