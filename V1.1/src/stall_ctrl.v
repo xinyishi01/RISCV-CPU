@@ -42,21 +42,16 @@ module stall_ctrl(
 				mem_clear = `True;
 				if(jmp == `True) 
 					if_clear = `True;
+			end else if(jmp == `True) begin
+				if_clear = `True;
+				id_clear = `True;
 			end else if(id_in == `True) begin
 				pc_stall = `True;
 				if_stall = `True;
 				id_clear = `True;
-				if(jmp == `True) begin
-					if_clear = `True;
-					id_clear = `True;
-				end
 			end else if(if_in == `True) begin
 				pc_stall = `True;
 				if_clear = `True;
-				if(jmp == `True) begin
-					if_clear = `True;
-					id_clear = `True;
-				end
 			end
 		end
 	end
