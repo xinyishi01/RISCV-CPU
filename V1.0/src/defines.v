@@ -24,9 +24,9 @@
 `define MemBus 7:0
 `define AluOpBus 4:0
 `define AluSelBus 3:0
-`define IndexBus 7:0
-`define MapSize 255
-`define MapBus 255:0
+`define IndexBus 6:0
+`define MapSize 127
+`define MapBus 127:0
 `define LenBus 2:0
 
 
