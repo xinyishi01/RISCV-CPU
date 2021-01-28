@@ -14,3 +14,8 @@ This is a project called cpu3 in vivado
 
     Output Frequency: 120 MHz
     WNS: -1.958 ns
+
+#### 100MHz.bit
+
+    Output Frequency: 100 MHz
+    WNS: -0.103 ns
