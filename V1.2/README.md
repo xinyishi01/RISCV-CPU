@@ -12,5 +12,5 @@ This is a project called cpu3 in vivado
 
 #### 120MHz.bit
 
-    Output Frequency: 150 MHz
+    Output Frequency: 120 MHz
     WNS: -1.958 ns
